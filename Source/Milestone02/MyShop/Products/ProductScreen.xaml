@@ -219,65 +219,6 @@
                                     </ComboBox.ItemTemplate>
                                 </ComboBox>
 
-                                <!--Thêm category--><!--
-                                <Border Name="addCatogry" 
-                                        HorizontalAlignment="Right"
-                                        VerticalAlignment="Bottom"
-                                        Margin="0 0 130 10"
-                                        Height="30"
-                                        Width="30" 
-                                        Background="Transparent"
-                                        Style="{StaticResource iconStyle}"
-                                        RenderTransformOrigin="0.5,0.5"
-                                        ToolTip="Thêm category">
-                                    <Image Width="30"
-                                           Height="30"
-                                           Stretch="Fill"
-                                           RenderOptions.BitmapScalingMode="HighQuality"
-                                           MouseUp="addCategory_MouseEnter"
-                                           Source="../Images/Icon/add.png">
-                                    </Image>
-                                </Border>
-
-                                --><!--Sửa category--><!--
-                                <Border Name="editCatogry"
-                                        HorizontalAlignment="Right"
-                                        VerticalAlignment="Bottom"
-                                        Margin="0 0 80 10"
-                                        Background="Transparent"
-                                        Height="30"
-                                        Width="30" 
-                                        Style="{StaticResource iconStyle}"
-                                        RenderTransformOrigin="0.5,0.5"
-                                        ToolTip="Sửa category">
-                                    <Image Width="30"
-                                           Height="30"
-                                           Stretch="Fill"
-                                           RenderOptions.BitmapScalingMode="HighQuality"
-                                           MouseUp="editCategory_MouseEnter"
-                                           Source="../Images/Icon/edit.png">
-                                    </Image>
-                                </Border>
-
-                                --><!--Thêm category--><!--
-                                <Border Name="deleteCatogry"
-                                        HorizontalAlignment="Right"
-                                        VerticalAlignment="Bottom"
-                                        Margin="0 0 30 10"
-                                        Background="Transparent"
-                                        Height="30"
-                                        Width="30" 
-                                        Style="{StaticResource iconStyle}"
-                                        RenderTransformOrigin="0.5,0.5"
-                                        ToolTip="Xóa category">
-                                    <Image Width="25"
-                                           Height="25"
-                                           Stretch="Fill"
-                                           RenderOptions.BitmapScalingMode="HighQuality"
-                                           MouseUp="deleteCategory_MouseEnter"
-                                           Source="../Images/Icon/delete-cross.png">
-                                    </Image>
-                                </Border>-->
                             </Grid>
 
                             <!--Search-->

@@ -31,6 +31,7 @@ namespace MyShop
         {
             InitializeComponent();
         }
+
         private void ProductList_MouseEnter(object sender, MouseButtonEventArgs e)
         {
             dashboard.Children.Clear();
@@ -118,11 +119,6 @@ namespace MyShop
             dashboard.Children.Add(new CategoryScreen());
         }
 
-        private void addNewProduct_MouseEnter(object sender, MouseButtonEventArgs e)
-        {
-            dashboard.Children.Add(new NewProductScreen());
-        }
-
         private void createBill_MouseEnter(object sender, MouseButtonEventArgs e)
         {
             dashboard.Children.Add(new OrdersScreen());
@@ -130,7 +126,7 @@ namespace MyShop
 
         private void ReportProduct_MouseEnter(object sender, MouseButtonEventArgs e)
         {
-
+            dashboard.Children.Add(new ReportScreen());
         }
     }
 }

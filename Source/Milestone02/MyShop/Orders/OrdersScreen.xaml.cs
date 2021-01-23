@@ -37,6 +37,7 @@ namespace MyShop.Orders
         {
             screenOrders.Children.Clear();
         }
+
         void CalculatePagingInfo()
         {
             int status = (statusFilterComboBox.SelectedItem as OrderState).OrderState_Key;

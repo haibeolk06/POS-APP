@@ -98,7 +98,7 @@
             </Grid>
             <Grid Grid.Row="0" Grid.Column="1">
 
-                <!--Danh sách sản phẩm-->
+                <!--Danh sách danh mục sản phẩm-->
 
                 <Border Name="bill" 
                         Height="200"

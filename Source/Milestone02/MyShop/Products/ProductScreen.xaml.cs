@@ -39,6 +39,7 @@ namespace MyShop.Products
         {
             InitializeComponent();
         }
+
         private async void UserControl_Initialized(object sender, EventArgs e)
         {
             progressBar.IsIndeterminate = true;
@@ -181,6 +182,8 @@ namespace MyShop.Products
 
             statusLabel.Content = $"Tổng sản phẩm: {count} ";
         }
+
+
         private void mucGia_CheckedChanged(object sender, RoutedEventArgs e)
         {
             var db = new MyShopEntities();
@@ -211,7 +214,7 @@ namespace MyShop.Products
                 minPrice = 200000;
                 maxPrice = int.MaxValue;
             }
-
+            
             CalculatePagingInfo(db, selectedCategory);
             UpdateProductView(db, selectedCategory);
         }
@@ -365,6 +368,7 @@ namespace MyShop.Products
             screen.RefreshProductList = refresh;
             homeProduct.Children.Add(screen);
         }
+
         /// <summary>
         /// Làm mới danh sách sản phẩm (list view)
         /// </summary>
